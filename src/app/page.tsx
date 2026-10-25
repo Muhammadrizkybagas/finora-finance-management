@@ -368,22 +368,7 @@ export default function LandingPage() {
       </section>
 
       {/* footer */}
-      <footer className="border-t border-slate-200 bg-white pt-16 pb-8">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg bg-[#6A040F] flex items-center justify-center font-bold text-white text-lg shadow-sm">F</div>
-            <span className="text-xl font-extrabold tracking-tight text-slate-800">Finora.</span>
-          </div>
-          <div className="flex gap-6 text-sm font-medium text-slate-500">
-            <Link href="#" className="hover:text-[#6A040F]">Kebijakan Privasi</Link>
-            <Link href="#" className="hover:text-[#6A040F]">Syarat Ketentuan</Link>
-            <Link href="#" className="hover:text-[#6A040F]">Bantuan</Link>
-          </div>
-        </div>
-        <div className="max-w-7xl mx-auto px-6 text-center mt-10">
-          <p className="text-xs text-slate-400 font-medium">© {new Date().getFullYear()} Finora App. Didesain dengan ❤️ untuk mahasiswa.</p>
-        </div>
-      </footer>
+
 
     </div>
   );
